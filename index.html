@@ -1,115 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Projects Cases</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="page">
-      <aside class="sidebar">
+<head>
+  <meta charset="UTF-8" />
+  <title>Paulik Liankevich</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- LEFT FIXED SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <div class="top">
         <div class="profile">
-          <div class="avatar" aria-hidden="true"></div>
-          <div>
-            <div class="name">Paulik</div>
-            <div class="name accent">Liankevich</div>
-          </div>
+          <strong>Paulik Liankevich</strong>
         </div>
 
-        <nav class="nav">
-          <div class="nav-section">
-            <div class="label">Design</div>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Materials</a>
-          </div>
-
-          <div class="nav-section">
-            <div class="label">Products</div>
-            <a class="nav-link with-icon" href="#">Alias w Ali <span aria-hidden="true">↗</span></a>
-            <a class="nav-link with-icon" href="#">MonoNoise <span aria-hidden="true">↗</span></a>
-            <a class="nav-link with-icon" href="#">QR machine <span aria-hidden="true">↗</span></a>
-            <a class="nav-link" href="#">Music sets</a>
-          </div>
-
-          <div class="nav-section">
-            <div class="label">Telegram:</div>
-            <a class="nav-link subtle" href="#">@lianksan</a>
-          </div>
-
-          <div class="nav-section">
-            <div class="label">Email</div>
-            <a class="nav-link subtle" href="mailto:liankevich.pav@gmail.com">liankevich.pav@gmail.com</a>
-          </div>
-
-          <div class="nav-section">
-            <div class="label">Lang:</div>
-            <div class="lang">
-              <a class="nav-link subtle" href="#">EN</a>
-              <a class="nav-link subtle muted" href="#">RU</a>
-              <a class="nav-link subtle muted" href="#">BY</a>
-            </div>
-          </div>
+        <nav class="menu">
+          <a href="#">Portfolio</a>
+          <a href="#">Blog</a>
+          <a href="#">Materials</a>
         </nav>
-      </aside>
 
-      <main class="content">
-        <header class="content-header">
-          <h1>Projects Cases</h1>
-        </header>
+        <nav class="products">
+          <a href="#">Alias w Ali ↗</a>
+          <a href="#">MonoNoise ↗</a>
+          <a href="#">QR machine ↗</a>
+        </nav>
+      </div>
 
-        <section class="cards">
-          <article class="card">
-            <div class="thumbnail"></div>
-            <div class="tags">
-              <span class="tag">Design</span>
-              <span class="tag">Development</span>
-              <span class="tag">Publishing</span>
-            </div>
-            <h2>Alias w Ali</h2>
-            <p class="meta">Mobile App / 2025</p>
-          </article>
+      <!-- Spacer -->
+      <div class="spacer"></div>
 
-          <article class="card">
-            <div class="thumbnail"></div>
-            <div class="tags">
-              <span class="tag">Design</span>
-            </div>
-            <h2>Battle Pass for World of Tanks</h2>
-            <p class="meta">PC Game / 2025-26</p>
-          </article>
+      <!-- Contacts -->
+      <div class="contacts">
+        <div>@lianksan</div>
+        <div>lenkevich.pav@gmail.com</div>
+        <div>EN · RU · BY</div>
+      </div>
 
-          <article class="card">
-            <div class="thumbnail"></div>
-            <div class="tags">
-              <span class="tag">Design</span>
-              <span class="tag">Development</span>
-            </div>
-            <h2>QR Machine</h2>
-            <p class="meta">Mobile App / 2025</p>
-          </article>
-
-          <article class="card">
-            <div class="thumbnail"></div>
-            <div class="tags">
-              <span class="tag">Design</span>
-              <span class="tag">Development</span>
-              <span class="tag">Publishing</span>
-            </div>
-            <h2>Alias w Ali</h2>
-            <p class="meta">PC Game / 2025-26</p>
-          </article>
-        </section>
-      </main>
     </div>
+  </aside>
 
-    <script src="script.js"></script>
-  </body>
+
+  <!-- RIGHT SCROLLABLE CONTENT -->
+  <main class="content">
+    <h1>Projects Cases</h1>
+
+    <div class="grid">
+      <div class="card">Alias w Ali</div>
+      <div class="card">Battle Pass</div>
+      <div class="card">MonoNoise</div>
+      <div class="card">QR Machine</div>
+      <div class="card">More</div>
+      <div class="card">More</div>
+    </div>
+  </main>
+
+</div>
+
+</body>
 </html>
